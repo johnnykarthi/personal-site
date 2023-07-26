@@ -37,3 +37,11 @@ hambuger.addEventListener('click', collapse)
         // {
         //     links[i].addEventListener('click',collapse);
         // }
+
+
+let arr = [1,2,3,4,5];
+const newArr = [7,8,9];
+
+arr = [...arr,2];
+
+console.log(arr);
